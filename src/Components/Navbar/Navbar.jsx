@@ -7,10 +7,17 @@ const Navbar = () => {
     <div>
         <nav className='navbar navbar-expand-lg bg-dark navbar-dark'>
             <div className="container">
+                {/** Navbar Brand / Logo */}
                 <a href='#' className='navbar-brand'>Value Inc</a>
 
-                <div className="collapse navbar-collapse">
-                    <ul className='navbar-nav'>
+                {/** When screen is smaller than size large, navbar collapses into hamburger menu */}
+                <button className="navbar-toggler" type='button' data-bs-toggle='collapse' data-bs-target='#navmenu'>
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+
+                {/** Navigation menu */}
+                <div className="collapse navbar-collapse" id='navmenu'>
+                    <ul className='navbar-nav ms-auto'>
                         <li className="nav-item">
                             <a href="#" className="nav-link">Directions</a>
                         </li>
