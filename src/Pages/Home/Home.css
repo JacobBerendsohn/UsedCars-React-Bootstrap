@@ -1,5 +1,19 @@
-@media(min-width: 768px) {
-    .search-input {
-        width: 45%;
-    }
+.background-image {
+    background-image: url('../../Assets/images/lot.png');
+    width: 500px;
+    height: 238px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pad-bar {
+    background-color: #aa1a2d;
+    padding: 6px;
+}
+
+.header-text {
+    float: right;
+    margin-right: 3%;
+    margin-top: 1%;
 }

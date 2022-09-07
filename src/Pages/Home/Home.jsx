@@ -8,31 +8,17 @@ const Home = () => {
   return (
     <div>
         {/** Page Header */}
-        <section className="bg-secondary text-light p-5 text-center text-md-start">
-            <div className="container">
-                <div className='d-sm-flex align-items-center justify-content-between'>
-                    <div className='p-5'>
-                        <h1><span className="text-red-500">Value Inc.</span> Used Cars</h1>
-                        <h3>Sales • Leasing • Rentals</h3>
-                        <br/>
-                        <button className="btn btn-primary btn-lg"> Find your vehicle</button>
-                    </div>
-                    <img className='img-fluid w-50 d-none d-md-block' src={lotPic} alt="" />
-                </div>
+        <div className='section-container'>
+            <div className="header-text">
+                SALES • LEASING • RENTALS
             </div>
-        </section>
+          <section className="bg-secondary text-light p-5 text-center text-md-start background-image">
+
+          </section>
+        </div>
         
-        {/** Search Bar */}
-        <section className="bg-gray-900 text-light p-5">
-          <div className="container">
-            <div className="d-md-flex justify-content-between align-items-center">
-              <h3 className="mb-3 mb-md-0">Find your dream car with us!</h3>
-              <div class="input-group search-input">
-                <input type="text" class="form-control" placeholder="What are you looking for?"/>
-                <button class="btn btn-secondary btn-large" type="button">Search</button>
-              </div>
-            </div>
-          </div>
+        {/** Blue Bar */}
+        <section className="pad-bar">
         </section>
 
         {/** Grid Section */}
