@@ -5,7 +5,8 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 const Navbar = () => {
   return (
     <div>
-        <nav className='navbar navbar-expand-lg bg-dark navbar-dark'>
+        {/** Navbar */}
+        <nav className='navbar navbar-expand-lg bg-dark navbar-dark py-3'>
             <div className="container">
                 {/** Navbar Brand / Logo */}
                 <a href='#' className='navbar-brand'>Value Inc</a>
@@ -15,7 +16,7 @@ const Navbar = () => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
-                {/** Navigation menu */}
+                {/** Navigation menu options */}
                 <div className="collapse navbar-collapse" id='navmenu'>
                     <ul className='navbar-nav ms-auto'>
                         <li className="nav-item">
