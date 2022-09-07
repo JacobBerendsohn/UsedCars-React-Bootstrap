@@ -1,10 +1,32 @@
-.background-image {
-    background-image: url('../../Assets/images/lot.png');
-    width: 500px;
-    height: 238px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.header-section {
+    background-image: url('../../Assets/images/iStock-157293636BW.png');
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.header-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.grid-button {
+    width: 100%;
+    height: auto;
+}
+
+.grid-button-bottom {
+    width: 70%;
+    height: auto;
+}
+
+/* Changing button when other items in column items stack */
+@media (max-width:768px){
+    .grid-button-bottom {
+        width: 100%;
+        height: auto;
+    }
 }
 
 .pad-bar {
@@ -12,8 +34,28 @@
     padding: 6px;
 }
 
-.header-text {
-    float: right;
-    margin-right: 3%;
-    margin-top: 1%;
+.about-us-section {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.about-us-image {
+    max-width: 25%;
+    height: auto;
+    margin-left: 20px;
+}
+
+.about-us-text-section {
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.about-us-text {
+
+}
+
+.about-us-paragraph {
+
 }

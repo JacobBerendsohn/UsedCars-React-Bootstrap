@@ -1,119 +1,96 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './Home.css'
-import lotPic from '../../Assets/images/lot.png'
+import headerPicture from '../../Assets/images/iStock-157293636BW.png'
+import uniqueButton from '../../Assets/images/UniqueButton.png'
+import purchasingButton from '../../Assets/images/PurchaseLeaseButton.png'
+import rentalButton from '../../Assets/images/RentalButton.png'
+import inventoryButton from '../../Assets/images/InventoryButton.png'
+import preapprovalButton from '../../Assets/images/PreapprovalButton.png'
+import aboutUsPic from '../../Assets/images/AboutUs.png'
 
 const Home = () => {
   return (
     <div>
         {/** Page Header */}
-        <div className='section-container'>
-            <div className="header-text">
-                SALES • LEASING • RENTALS
-            </div>
-          <section className="bg-secondary text-light p-5 text-center text-md-start background-image">
-
-          </section>
-        </div>
+        <section className="header-section">
+          <img className='header-image' src={headerPicture} alt="" />
+        </section>
         
-        {/** Blue Bar */}
+        
+        {/** Red Bar */}
         <section className="pad-bar">
         </section>
 
-        {/** Grid Section */}
-        <section className="p-4">
+        {/** Grid Button Section */}
+        {/** TODO: Add correct routes to LINK elements */}
+        <section className="pt-4">
           <div className="container">
             <div className="row text-center">
 
               <div className="col-md pb-3">
-                <div className="card bg-dark text-light">
-                  <div className="card-body text-center">
-                    <div className="h1 mb-3">
-                      <i className="bi bi-patch-question-fill"></i>
-                    </div>
-                    <h3 className="card-title mb-3">
-                      Want to know what makes us Unique?
-                    </h3>
-                    <p className="card-text">
-                      There really is a difference!
-                    </p>
-                    <a href="" className="btn btn-primary">Learn More</a>
-                  </div>
-                </div>
+                <Link to='/'>
+                  <img className='grid-button' src={uniqueButton} />
+                </Link>
               </div>
 
               <div className="col-md pb-3">
-                <div className="card bg-gray-700 text-light">
-                  <div className="card-body text-center">
-                    <div className="h1 mb-3">
-                      <i className="bi bi-cash-coin"></i>
-                    </div>
-                    <h3 className="card-title mb-3">
-                      Purchasing and Leasing Options
-                    </h3>
-                    <p className="card-text">
-                      Yes you can lease a used car!
-                    </p>
-                    <a href="" className="btn btn-primary">Learn More</a>
-                  </div>
-                </div>
+                <Link to='/'>
+                  <img className='grid-button' src={purchasingButton} />
+                </Link>
               </div>
 
               <div className="col-md pb-3">
-                <div className="card bg-gray-600 text-light">
-                  <div className="card-body text-center">
-                    <div className="h1 mb-3">
-                      <i className="bi bi-file-earmark-text"></i>
-                    </div>
-                    <h3 className="card-title mb-3">
-                      Long Term Rental / Short Term Lease
-                    </h3>
-                    <p className="card-text">
-                      There really is a difference!
-                    </p>
-                    <a href="" className="btn btn-primary">Learn More</a>
-                  </div>
-                </div>
+                <Link to='/'>
+                  <img className='grid-button' src={rentalButton} />
+                </Link>
               </div>
             </div>
 
             <div className="row text-center">
 
               <div className="col-md pb-3">
-                <div className="card bg-gray-600 text-light">
-                  <div className="card-body text-center">
-                    <div className="h1 mb-3">
-                      <i className="bi bi-car-front"></i>
-                    </div>
-                    <h3 className="card-title mb-3">
-                      View our Inventory
-                    </h3>
-                    <p className="card-text">
-                      Available for immediate delivery!
-                    </p>
-                    <a href="" className="btn btn-primary">Learn More</a>
-                  </div>
-                </div>
+                <Link to='/'>
+                  <img className='grid-button-bottom' src={inventoryButton} />
+                </Link>
               </div>
 
               <div className="col-md pb-3">
-                <div className="card bg-dark text-light">
-                  <div className="card-body text-center">
-                    <div className="h1 mb-3">
-                      <i className="bi bi-clipboard-check"></i>
-                    </div>
-                    <h3 className="card-title mb-3">
-                      Pre-Approval
-                    </h3>
-                    <p className="card-text">
-                      All credit is welcome!
-                    </p>
-                    <a href="" className="btn btn-primary">Learn More</a>
-                  </div>
-                </div>
+                <Link to='/'>
+                  <img className='grid-button-bottom' src={preapprovalButton} />
+                </Link>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/** About Us picture */}
+        <section className='about-us-section'>
+          <div>
+            <img className='about-us-image' src={aboutUsPic} alt="" />
+          </div>
+        </section>
+
+        {/** About Us text */}
+        <section className='about-us-text-section'>
+            <div className='about-us-text'>
+              <p className='about-us-paragraph'>
+                Value… it’s more than our name, it’s what we deliver!
+                Welcome to Value Inc., a family owned and operated business, where we promise to deliver value to you at every stage
+                of your car buying experience.
+                We value your time and will show you vehicles that meet your individual needs and are carefully selected, tested, and
+                prepared to deliver long worry-free ownership.
+                We value your participation in the process and make sure that you get all the information you need, clearly and precisely,
+                whether you pay cash, finance, or lease your vehicle. No one understands your needs better than you, so we will offer
+                you a selection of optional products such as extended warrantees that are designed to deliver a good value for your
+                hard-earned money.
+                We value the trust you place in our family by purchasing or leasing your vehicle from us, and strive to build a relationship
+                that will have you coming back for your next vehicle… and your next.
+                As President of Value Inc., I pride myself on delivering good, honest, old-fashioned value to each and every customer,
+                with each and every vehicle, each and every time. Come in today and let us welcome you!
+              </p>
           </div>
         </section>
 
