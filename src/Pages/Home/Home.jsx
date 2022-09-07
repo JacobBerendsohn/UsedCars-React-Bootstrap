@@ -38,9 +38,9 @@ const Home = () => {
         {/** Grid Section */}
         <section className="p-4">
           <div className="container">
-            <div className="row text-center pb-4">
+            <div className="row text-center">
 
-              <div className="col-md">
+              <div className="col-md pb-3">
                 <div className="card bg-dark text-light">
                   <div className="card-body text-center">
                     <div className="h1 mb-3">
@@ -57,7 +57,7 @@ const Home = () => {
                 </div>
               </div>
 
-              <div className="col-md">
+              <div className="col-md pb-3">
                 <div className="card bg-gray-700 text-light">
                   <div className="card-body text-center">
                     <div className="h1 mb-3">
@@ -74,7 +74,7 @@ const Home = () => {
                 </div>
               </div>
 
-              <div className="col-md">
+              <div className="col-md pb-3">
                 <div className="card bg-gray-600 text-light">
                   <div className="card-body text-center">
                     <div className="h1 mb-3">
@@ -94,7 +94,7 @@ const Home = () => {
 
             <div className="row text-center">
 
-              <div className="col-md">
+              <div className="col-md pb-3">
                 <div className="card bg-gray-600 text-light">
                   <div className="card-body text-center">
                     <div className="h1 mb-3">
@@ -111,7 +111,7 @@ const Home = () => {
                 </div>
               </div>
 
-              <div className="col-md">
+              <div className="col-md pb-3">
                 <div className="card bg-dark text-light">
                   <div className="card-body text-center">
                     <div className="h1 mb-3">
