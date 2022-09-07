@@ -37,25 +37,41 @@
 .about-us-section {
     padding: 5px;
     display: flex;
-    justify-content: center;
     margin: auto;
 }
 
 .about-us-image {
     max-width: 25%;
     height: auto;
-    margin-left: 20px;
+    margin-left: 5%;
 }
 
-.about-us-text-section {
+@media (max-width:1200px){
+    .about-us-image {
+        max-width: 25%;
+        height: auto;
+        margin-left: 5%;
+    }
+}
+
+.about-us-info {
     margin-left: 12%;
     margin-right: 12%;
 }
 
-.about-us-text {
-
+.div-break {
+    display: block;
+    margin-bottom: 12px;
 }
 
-.about-us-paragraph {
+.signature-image {
+    max-width: 20%;
+    height: auto;
+}
 
+@media (max-width:1200px){
+    .signature-image {
+        max-width: 30%;
+        height: auto;
+    }
 }

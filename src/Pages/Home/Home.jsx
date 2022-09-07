@@ -10,6 +10,7 @@ import rentalButton from '../../Assets/images/RentalButton.png'
 import inventoryButton from '../../Assets/images/InventoryButton.png'
 import preapprovalButton from '../../Assets/images/PreapprovalButton.png'
 import aboutUsPic from '../../Assets/images/AboutUs.png'
+import signaturePete from '../../Assets/images/PeteSignature.png'
 
 const Home = () => {
   return (
@@ -68,28 +69,36 @@ const Home = () => {
 
         {/** About Us picture */}
         <section className='about-us-section'>
-          <div>
             <img className='about-us-image' src={aboutUsPic} alt="" />
-          </div>
         </section>
 
         {/** About Us text */}
         <section className='about-us-text-section'>
-            <div className='about-us-text'>
+            <div className='about-us-info'>
               <p className='about-us-paragraph'>
-                Value… it’s more than our name, it’s what we deliver!
-                Welcome to Value Inc., a family owned and operated business, where we promise to deliver value to you at every stage
+                <strong>Value…</strong> it’s more than our name, it’s what we deliver!
+                <div className='div-break' />
+                Welcome to <strong>Value Inc.</strong>, a family owned and operated business, where we promise to deliver <strong>value</strong> to you at every stage
                 of your car buying experience.
-                We value your time and will show you vehicles that meet your individual needs and are carefully selected, tested, and
+                <div className='div-break' />
+                We <strong>value</strong> your time and will show you vehicles that meet your individual needs and are carefully selected, tested, and
                 prepared to deliver long worry-free ownership.
-                We value your participation in the process and make sure that you get all the information you need, clearly and precisely,
+                <div className='div-break' />
+                We <strong>value</strong> your participation in the process and make sure that you get all the information you need, clearly and precisely,
                 whether you pay cash, finance, or lease your vehicle. No one understands your needs better than you, so we will offer
-                you a selection of optional products such as extended warrantees that are designed to deliver a good value for your
+                you a selection of optional products such as extended warrantees that are designed to deliver a good <strong>value</strong> for your
                 hard-earned money.
-                We value the trust you place in our family by purchasing or leasing your vehicle from us, and strive to build a relationship
+                <div className='div-break' />
+                We <strong>value</strong> the trust you place in our family by purchasing or leasing your vehicle from us, and strive to build a relationship
                 that will have you coming back for your next vehicle… and your next.
-                As President of Value Inc., I pride myself on delivering good, honest, old-fashioned value to each and every customer,
+                <div className='div-break' />
+                As President of <strong>Value Inc.</strong>, I pride myself on delivering good, honest, old-fashioned <strong>value</strong> to each and every customer,
                 with each and every vehicle, each and every time. Come in today and let us welcome you!
+              </p>
+              <img className='signature-image' src={signaturePete} alt="" />
+              <p className='p-2'>
+                Peter Saldamarco,<br/>
+                Licensed dealer, CT DMV since 1977
               </p>
           </div>
         </section>
