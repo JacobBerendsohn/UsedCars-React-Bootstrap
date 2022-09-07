@@ -69,7 +69,7 @@ const Home = () => {
                     <p className="card-text">
                       Yes you can lease a used car!
                     </p>
-                    <a href="" className="btn btn-dark">Learn More</a>
+                    <a href="" className="btn btn-primary">Learn More</a>
                   </div>
                 </div>
               </div>
@@ -106,7 +106,7 @@ const Home = () => {
                     <p className="card-text">
                       Available for immediate delivery!
                     </p>
-                    <a href="" className="btn btn-dark">Learn More</a>
+                    <a href="" className="btn btn-primary">Learn More</a>
                   </div>
                 </div>
               </div>
