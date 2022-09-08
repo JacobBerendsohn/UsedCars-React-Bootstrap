@@ -9,8 +9,19 @@
     padding: 0;
     margin-top: 10px;
     margin-bottom: 5px;
-    width: 50%;
+    width: 25%;
     float: right;
+}
+
+@media (max-width:768px){
+    .footer-list {
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        width: 60%;
+        float: right;
+    }
 }
 
 .footer-left {
