@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.css'
 import headerPicture from '../../Assets/images/New_Lot_Photo.png'
+import logo from '../../Assets/images/logo-with-silver-effect.png'
 
 const Header = () => {
   return (
@@ -8,8 +9,8 @@ const Header = () => {
         {/** Page Header */}
         <section className="header-section">
           <img className='header-image' src={headerPicture} alt="" />
+          {/** Header Logo Option 2 */}
           {/** <img src={logo} alt="" className="header-logo" /> */}
-          {/** <img src={title} alt="" className="header-text" /> */}
         </section>
 
         {/** Red Bar */}

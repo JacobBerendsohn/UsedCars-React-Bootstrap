@@ -17,5 +17,14 @@
 }
 
 .nav-item-style {
-    margin-right: 100px;
+    margin-right: 50px;
+}
+
+.header-logo {
+    width: 33%;
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    left: 10px;
+    top: 0;
 }

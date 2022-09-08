@@ -2,6 +2,7 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './Navbar.css'
+import logo from '../../Assets/images/logo-with-silver-effect.png'
 
 const Navbar = () => {
   return (
@@ -17,6 +18,8 @@ const Navbar = () => {
 
                 {/** Navigation menu options */}
                 <div className="collapse navbar-collapse" id='navmenu'>
+                    {/** Header Logo Option 1 */}
+                    <a class="navbar-brand" href="#"><img src={logo} alt="" className="header-logo" /></a>
                     <ul className='navbar-nav ms-auto'>
                         <li className="nav-item nav-item-style">
                             <a href="#" className="nav-link"><span className='navlink-items'>Directions</span></a>
