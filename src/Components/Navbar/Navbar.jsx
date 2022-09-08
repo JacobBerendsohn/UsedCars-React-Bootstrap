@@ -7,11 +7,11 @@ const Navbar = () => {
   return (
     <div>
         {/** Navbar */}
-        <nav className='navbar navbar-expand-md navigation navbar-dark'>
+        <nav className='navbar navbar-expand-md navbar-dark navigation'>
             <div className="container">
 
                 {/** When screen is smaller than size large, navbar collapses into hamburger menu */}
-                <button className="navbar-toggler" type='button' data-bs-toggle='collapse' data-bs-target='#navmenu'>
+                <button className="navbar-toggler navbar-toggle-position" type='button' data-bs-toggle='collapse' data-bs-target='#navmenu'>
                     <span className="navbar-toggler-icon"></span>
                 </button>
 

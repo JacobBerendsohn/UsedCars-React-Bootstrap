@@ -2,8 +2,14 @@
     background-color: #000000;
 }
 
+.navbar-toggle-position {
+    margin-left: 85%;
+}
+
 .navlink-items {
     color: #ffffff;
+    font-family: 'Britannic';
+    font-size: large;
 }
 
 .navlink-items-color {

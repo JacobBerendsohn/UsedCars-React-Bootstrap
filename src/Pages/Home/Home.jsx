@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './Home.css'
-import headerPicture from '../../Assets/images/iStock-157293636BW.png'
+import headerPicture from '../../Assets/images/New_Lot_Photo.png'
 import uniqueButton from '../../Assets/images/UniqueButton.png'
 import purchasingButton from '../../Assets/images/PurchaseLeaseButton.png'
 import rentalButton from '../../Assets/images/RentalButton.png'
@@ -11,6 +11,8 @@ import inventoryButton from '../../Assets/images/InventoryButton.png'
 import preapprovalButton from '../../Assets/images/PreapprovalButton.png'
 import aboutUsPic from '../../Assets/images/AboutUs.png'
 import signaturePete from '../../Assets/images/PeteSignature.png'
+import logo from '../../Assets/images/logo-with-silver-effect.png'
+import title from '../../Assets/images/SalesLeasingRentals.png'
 
 const Home = () => {
   return (
@@ -18,6 +20,8 @@ const Home = () => {
         {/** Page Header */}
         <section className="header-section">
           <img className='header-image' src={headerPicture} alt="" />
+          <img src={logo} alt="" className="header-logo" />
+          {/** <img src={title} alt="" className="header-text" /> */}
         </section>
         
         
@@ -27,23 +31,23 @@ const Home = () => {
 
         {/** Grid Button Section */}
         {/** TODO: Add correct routes to LINK elements */}
-        <section className="pt-4">
+        <section className="p-4">
           <div className="container">
             <div className="row text-center">
 
-              <div className="col-md pb-3">
+              <div className="col-md pb-3 grid-main">
                 <Link to='/'>
                   <img className='grid-button' src={uniqueButton} />
                 </Link>
               </div>
 
-              <div className="col-md pb-3">
+              <div className="col-md pb-3 grid-main">
                 <Link to='/'>
                   <img className='grid-button' src={purchasingButton} />
                 </Link>
               </div>
 
-              <div className="col-md pb-3">
+              <div className="col-md pb-3 grid-main">
                 <Link to='/'>
                   <img className='grid-button' src={rentalButton} />
                 </Link>
@@ -52,13 +56,13 @@ const Home = () => {
 
             <div className="row text-center">
 
-              <div className="col-md pb-3">
+              <div className="col-md pb-3 grid-main-bottom-l">
                 <Link to='/'>
                   <img className='grid-button-bottom' src={inventoryButton} />
                 </Link>
               </div>
 
-              <div className="col-md pb-3">
+              <div className="col-md pb-3 grid-main-bottom-r">
                 <Link to='/'>
                   <img className='grid-button-bottom' src={preapprovalButton} />
                 </Link>
