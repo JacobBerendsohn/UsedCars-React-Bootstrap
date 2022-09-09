@@ -1,0 +1,25 @@
+.directions-text-section {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.directions-paragraph {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.div-break {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.map {
+    margin: auto;
+    display: block;
+}
+
+.map-container {
+    margin: 5%;
+}
