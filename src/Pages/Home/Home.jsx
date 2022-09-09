@@ -21,19 +21,19 @@ const Home = () => {
             <div className="row text-center">
 
               <div className="col-md pb-3 grid-main">
-                <Link to='/'>
+                <Link to='/what-makes-us-unique'>
                   <img className='grid-button' src={uniqueButton} />
                 </Link>
               </div>
 
               <div className="col-md pb-3 grid-main">
-                <Link to='/'>
+                <Link to='/purchase-lease-options'>
                   <img className='grid-button' src={purchasingButton} />
                 </Link>
               </div>
 
               <div className="col-md pb-3 grid-main">
-                <Link to='/'>
+                <Link to='/lt-rentals-st-leases'>
                   <img className='grid-button' src={rentalButton} />
                 </Link>
               </div>
@@ -42,13 +42,13 @@ const Home = () => {
             <div className="row text-center">
 
               <div className="col-md pb-3 grid-main-bottom-l">
-                <Link to='/'>
+                <Link to='/inventory'>
                   <img className='grid-button-bottom' src={inventoryButton} />
                 </Link>
               </div>
 
               <div className="col-md pb-3 grid-main-bottom-r">
-                <Link to='/'>
+                <Link to='/pre-approval'>
                   <img className='grid-button-bottom' src={preapprovalButton} />
                 </Link>
               </div>
