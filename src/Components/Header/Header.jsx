@@ -1,7 +1,8 @@
 import React from 'react'
 import './Header.css'
 import headerPicture from '../../Assets/images/New_Lot_Photo.png'
-import logo from '../../Assets/images/logo-with-silver-effect.png'
+{/** Logo Import for Option 2 */}
+{/** import logo from '../../Assets/images/logo-with-silver-effect.png' */}
 
 const Header = () => {
   return (
