@@ -4,7 +4,7 @@ import './Unique.css'
 const Unique = () => {
   return (
     <div>
-        Unique
+        What makes us unique?
     </div>
   )
 }
