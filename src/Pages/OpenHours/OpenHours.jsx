@@ -4,7 +4,9 @@ import './OpenHours.css'
 const OpenHours = () => {
   return (
     <div>
+      <section>
         Open Hours
+      </section>
     </div>
   )
 }

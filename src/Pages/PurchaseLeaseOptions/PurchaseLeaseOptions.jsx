@@ -4,7 +4,9 @@ import './PurchaseLeaseOptions.css'
 const PurchaseLeaseOptions = () => {
   return (
     <div>
+      <section>
         Purchase/Lease Options
+      </section>
     </div>
   )
 }
